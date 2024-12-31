@@ -1,0 +1,10 @@
+flask==3.0.0
+numpy==1.26.2
+pandas
+python-dotenv==1.0.0
+PyJWT
+scikit-learn
+scipy==1.11.4
+sounddevice==0.4.6
+openai==1.6.1
+react

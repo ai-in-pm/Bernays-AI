@@ -1,0 +1,220 @@
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-022-470
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-022-470
+INFO:__main__:Home endpoint accessed
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 13:14:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 13:14:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:__main__:Error in chat interaction: Object of type timedelta is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 13:14:22] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-022-470
+INFO:werkzeug: * Detected change in 'C:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-022-470
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:__main__:Home endpoint accessed
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 13:16:36] "GET / HTTP/1.1" 200 -
+ERROR:__main__:Error in chat interaction: Object of type timedelta is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 13:16:41] "POST /api/chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-022-470
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Detected change in 'C:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-022-470
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:__main__:Home endpoint accessed
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 13:18:04] "GET / HTTP/1.1" 200 -
+ERROR:modules.interaction_agent:Error generating response: The length of `a` must be at least 2.
+ERROR:__main__:Error in chat interaction: Object of type timedelta is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 13:18:10] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\cc-working-dir\\bernays-ai\\modules\\interaction_agent.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with stat
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-022-470
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 298-022-470
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Detected change in 'C:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:werkzeug: * Debugger PIN: 298-022-470
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.neural_oscillation:Initialized NeuralOscillator with config: {'sample_rate': 44100, 'min_freq': 0.5, 'max_freq': 40.0, 'duration': 300}
+INFO:modules.interaction_agent:Initialized InteractionAgent with neural configuration
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 731-764-992
+INFO:__main__:Home endpoint accessed
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 13:19:52] "GET / HTTP/1.1" 200 -
+ERROR:modules.interaction_agent:Error generating response: The length of `a` must be at least 2.
+ERROR:__main__:Error in chat interaction: Object of type ndarray is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 13:19:57] "POST /api/chat HTTP/1.1" 200 -
+ERROR:modules.interaction_agent:Error generating response: The length of `a` must be at least 2.
+ERROR:__main__:Error in chat interaction: Object of type ndarray is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 13:20:13] "POST /api/chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\cc-working-dir\\bernays-ai\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with stat

@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subliminal AI Agent Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .chat-container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            min-height: 400px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .message {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .agent {
+            background-color: #f5f5f5;
+        }
+        .user {
+            background-color: #e3f2fd;
+            text-align: right;
+        }
+        .input-container {
+            display: flex;
+            gap: 10px;
+        }
+        input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .metrics-container {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .note {
+            color: #dc3545;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Subliminal AI Agent Chat</h1>
+    
+    <div class="chat-container" id="chatContainer"></div>
+    
+    <div class="input-container">
+        <input type="text" id="userInput" placeholder="Type your message here..." />
+    </div>
+    
+    <div class="metrics-container">
+        <h2>Interaction Metrics</h2>
+        <pre id="metricsDisplay"></pre>
+    </div>
+    
+    <p class="note">Note: This is a research prototype. Neural modulation features are active.</p>
+
+    <script>
+        const chatContainer = document.getElementById('chatContainer');
+        const userInput = document.getElementById('userInput');
+        const metricsDisplay = document.getElementById('metricsDisplay');
+        
+        function addMessage(message, isUser) {
+            const div = document.createElement('div');
+            div.className = `message ${isUser ? 'user' : 'agent'}`;
+            div.textContent = message;
+            chatContainer.appendChild(div);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+        
+        function updateMetrics(metrics) {
+            if (!metrics) return;
+            
+            const formattedMetrics = {
+                'Total Interactions': metrics.total_interactions,
+                'Current State': metrics.current_state,
+                'Influence Level': (metrics.influence_level * 100).toFixed(1) + '%',
+                'Session Duration': formatDuration(metrics.session_duration_seconds)
+            };
+            
+            metricsDisplay.textContent = JSON.stringify(formattedMetrics, null, 2);
+        }
+        
+        function formatDuration(seconds) {
+            if (seconds < 60) return `${seconds} seconds`;
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            return `${minutes}m ${remainingSeconds}s`;
+        }
+        
+        userInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && userInput.value.trim()) {
+                const message = userInput.value.trim();
+                addMessage(message, true);
+                sendMessage(message);
+                userInput.value = '';
+            }
+        });
+        
+        async function sendMessage(message) {
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: message })
+                });
+                
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    addMessage('Error: ' + data.error, false);
+                    return;
+                }
+                
+                if (data.response && data.response.text) {
+                    addMessage(data.response.text, false);
+                    
+                    if (data.metrics) {
+                        updateMetrics(data.metrics);
+                    }
+                    
+                    // Play audio if available
+                    if (data.response.audio) {
+                        try {
+                            const audio = new Audio('data:audio/wav;base64,' + data.response.audio);
+                            await audio.play();
+                        } catch (audioError) {
+                            console.error('Error playing audio:', audioError);
+                        }
+                    }
+                } else {
+                    addMessage('Error: Invalid response format', false);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                addMessage('Error: Could not send message. Please try again.', false);
+            }
+        }
+        
+        // Initial greeting
+        addMessage('Hello! I am the Subliminal AI Agent. How can I assist you today?', false);
+    </script>
+</body>
+</html>
