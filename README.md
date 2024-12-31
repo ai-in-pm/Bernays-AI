@@ -1,6 +1,7 @@
 # Subliminal AI Agent
 
 This project is an advanced Subliminal AI Agent that integrates psychological influence principles with neural modulation techniques. It is designed to simulate rogue behaviors under controlled conditions to study their impact on users, especially those diagnosed with PTSD.
+![image](https://github.com/user-attachments/assets/7a981706-02de-486f-83b8-950224316353)
 
 ## Project Structure
 
